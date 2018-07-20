@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2017, 9:23:30 PM
+    Author     : Eagle Nest
+*/
+
+.bgslider{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.bgslider >div{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.slide-0{background: url(/images/slider-image1.jpg) top center no-repeat;}
+.slide-1{background: url(/images/slider-image2.jpg) top center no-repeat;}
+.slide-2{background: url(/images/slider-image4.jpg) top center no-repeat;}
+.slide-3{background: url(/images/slider-image3.jpg) top center no-repeat;}
+
+@media screen and (max-width: 480px){
+    .slide-0 {background-position-x: 21%;}
+    .slide-1 {background-position-x: 38%;}
+    .slide-2 {background-position-x: 40%;}
+    .slide-3 {background-position-x: 50%;}
+}

@@ -19,14 +19,22 @@ Create a `<div class="bgslider">` element, with list of `<option>` elements to s
 
 ```html
 <div class="bgslider">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="slide-0"></div>
+    <div class="slide-1"></div>
+    <div class="slide-2"></div>
+    <div class="slide-3"></div>
 </div>
 ```
 
-### Step 3: Call the slideBackground
+### Step 3: apply backgrounds
+```css
+.slide-0{background: url(/images/slider-image1.jpg) top center no-repeat;}
+.slide-1{background: url(/images/slider-image2.jpg) top center no-repeat;}
+.slide-2{background: url(/images/slider-image4.jpg) top center no-repeat;}
+.slide-3{background: url(/images/slider-image3.jpg) top center no-repeat;}
+```
+
+### Step 4: Call the slideBackground
 
 Call .slideBackground() on `<div class="bgslider">`. Note that the call must be made inside of a $(document).ready() call, or the plugin will not work!
 
@@ -35,3 +43,5 @@ $(document).ready(function(){
   $('.bgslider').slideBackground();
 });
 ```
+
+

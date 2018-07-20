@@ -4,13 +4,15 @@
 
 ### Step 1: Link required files
 
-First and most important, the jQuery library needs to be included (no need to download - link directly from Google). Next, download the package from this site and link the slideker Javascript file.
+First and most important, the jQuery library needs to be included (no need to download - link directly from Google). Next, download the package from this site and link the slideker Javascript and css file.
 
 ```html
 <!-- jQuery library (served from Google) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- background slider Javascript file -->
 <script src="/js/slideker.js"></script>
+<!-- select search CSS file -->
+<link href="/css/slideker.css" rel="stylesheet" />
 ```
 
 ### Step 2: Create HTML markup

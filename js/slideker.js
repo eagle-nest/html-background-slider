@@ -9,7 +9,7 @@
 
     });
 
-    $.fn.slideker = function (options) {
+    $.fn.slideBackground = function (options) {
 
         // This is the easiest way to have default options.
         var settings = $.extend({
